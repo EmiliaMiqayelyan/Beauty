@@ -83,7 +83,7 @@ export default {
   height: 450px;
 }
 
->>> .p-carousel-items-container{
+:deep(.p-carousel-items-container){
   gap: 30px;
 }
 </style>

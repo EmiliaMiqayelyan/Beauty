@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="header-content flex gap-5 justify-content-center align-items-center w-full fixed p-2">
+    <div class="header-content flex gap-5 justify-content-center align-items-center w-full fixed p-2 z-5">
       <p class="text-sm font-medium">HOME</p>
       <p class="text-sm font-medium">SHOP</p>
       <div class="flex flex-column align-items-center">
