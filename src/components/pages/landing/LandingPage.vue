@@ -56,8 +56,15 @@
     </div>
   </div>
 
-  <div class="p-6">
-    <img src="https://cdn05.zipify.com/VNGisZeIVCvJ2K24mzpFklixtRg=/0x0:1755x1755/fit-in/1080x0/5b4253dd04804721b182aca95085f70e/untitled-design-60.png" alt=""/>
+  <div class="p-6 flex gap-8">
+    <div>
+      <img class="timer-img" src="https://cdn05.zipify.com/VNGisZeIVCvJ2K24mzpFklixtRg=/0x0:1755x1755/fit-in/1080x0/5b4253dd04804721b182aca95085f70e/untitled-design-60.png" alt=""/>
+    </div>
+
+    <div>
+      <p>Save on Sets</p>
+      <p>Mode using clean non-toxic ingredients, out products are designed for everyone.</p>
+    </div>
   </div>
 </template>
 
@@ -174,5 +181,11 @@ export default {
 @keyframes rotate {
   from { transform: rotate(360deg); }
   to { transform: rotate(0); }
+}
+
+.timer-img{
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
 }
 </style>
